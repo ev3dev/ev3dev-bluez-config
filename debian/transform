@@ -1,0 +1,1 @@
+/etc/bluetooth/main.conf.ev3dev sed -e 's/^#\(Class = .*\)/# Computer\n\1\n# Toy Robot\n#Class = 0x00000804/' -e 's/#\(DeviceID =\).*/# LEGO MINDSTORMS EV3 USB device ID\n\1 usb:0694:0005:0316/'

@@ -1,0 +1,17 @@
+Source: ev3dev-bluez-config
+Section: embedded
+Priority: extra
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 9), config-package-dev (>= 5.0), bluez (>= 5.0)
+Standards-Version: 3.9.5
+Homepage: http://www.ev3dev.org
+Vcs-Git: git://github.com/ev3dev/ev3dev-bluez-config.git
+Vcs-Browser: https://github.com/ev3dev/ev3dev-bluez-config
+
+Package: ev3dev-bluez-config
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, bluez (>= 5.0)
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: ev3dev-specific configuration files for bluez
+ Replaces the default bluez configuration with one specifically for ev3dev.

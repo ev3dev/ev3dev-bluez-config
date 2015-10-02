@@ -1,0 +1,5 @@
+ev3dev-bluez-config (1.0.0) stable; urgency=low
+
+  * Initial Release.
+
+ -- David Lechner <david@lechnology.com>  Thu, 01 Oct 2015 20:14:24 -0500
